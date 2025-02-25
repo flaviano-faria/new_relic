@@ -4,5 +4,5 @@ select filter(count(*), WHERE level = 'ERROR' AND  hostname = 'canary') / filter
 
 percentage function:
 
-SELECT percentage(count(*), WHERE level = 'INFO') as percent FROM Log SINCE 30 minutes ago
+SELECT percentage(count(*), WHERE level = 'INFO') as percent FROM Log SINCE 30 minutes ago <br/>
 SELECT percentage(count(*), WHERE level = 'ERROR') as percent FROM Log SINCE 30 minutes ago
