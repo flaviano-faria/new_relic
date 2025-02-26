@@ -6,3 +6,4 @@ percentage function:
 
 SELECT percentage(count(*), WHERE level = 'INFO') as percent FROM Log SINCE 30 minutes ago <br/>
 SELECT percentage(count(*), WHERE level = 'ERROR') as percent FROM Log SINCE 30 minutes ago
+SELECT average(numeric(amount)) FROM Log SINCE 1740433906404 UNTIL 1740454301491
